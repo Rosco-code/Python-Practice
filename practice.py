@@ -49,5 +49,46 @@ best_sushi = {"name": "Shiro's", "location": (47.61477069277289, -122.3474259559
 
 # print("Hello,", "Tommy", sep = '... ', end = '!\')
 
-a = (1 + 1) % 3
-print(a)
+# a = (1 + 1) % 3
+# print(a)
+
+# a = True
+# b = False2
+
+# print('AND logic:')
+# print('a and a = ', a and a)
+# print('a and b = ', a and b)
+# print('b and b = ', b and b)
+# print('1 and 1 = ', 1 and 1)
+# print('1 and 0 = ', 1 and 0)
+# print('0 and 0 = ', 0 and 0)
+
+# print('OR logic:')
+# print('a or a = ', a or a)
+# print('a or b = ', a or b)
+# print('b or b = ', b or b)
+
+# print('NOT logic:')
+# print('a =', a, ' not a = ', not a)
+# print('b =', b, ' not b = ', not b)
+
+#1/18/2025 6:33AM PST
+# a = input('Enter A Number: ')
+# b = input('Now Enter Another Number: ')
+
+# sum = int(a) + int(b)
+# print('Data Type sum: ', sum, type(sum))
+# sum2 = int(a) + int(b)
+# print('sum2 is a: ', type(sum2), ', The value of sum2 is: ', sum2)
+# sum = chr(int(sum))
+# print('Data type sum: ', sum, type(sum))
+
+#this XOR bit algorithim requires three steps and then swaps the values of the two variables. the variables have to be ints, they cant be floats, str or anything else.
+a = 20.5
+b = 10.5
+print('a = ', a, 'b = ', b )
+
+a = a ^ b
+b = a ^ b
+a = a ^ b
+print('a = ', a, 'b = ', b )

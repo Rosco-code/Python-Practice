@@ -84,11 +84,63 @@ best_sushi = {"name": "Shiro's", "location": (47.61477069277289, -122.3474259559
 # print('Data type sum: ', sum, type(sum))
 
 #this XOR bit algorithim requires three steps and then swaps the values of the two variables. the variables have to be ints, they cant be floats, str or anything else.
-a = 20.5
-b = 10.5
-print('a = ', a, 'b = ', b )
+# a = 20.5
+# b = 10.5
+# print('a = ', a, 'b = ', b )
 
-a = a ^ b
-b = a ^ b
-a = a ^ b
-print('a = ', a, 'b = ', b )
+# a = a ^ b
+# b = a ^ b
+# a = a ^ b
+# print('a = ', a, 'b = ', b )
+
+# quarter = ['January', 'February', 'March']
+
+# print('First month: ', quarter[0])
+# print('Second month: ', quarter[1])
+# print('Third month: ', quarter[2])
+
+# coords = [[1, 2, 3], [4, 5, 6]]
+# print('Top Left 0, 0 :', coords[0][0])
+# print('Bottom Right 1, 2', coords[1][2])
+# print("Second Month's first letter: ", quarter[1][0])
+
+#1/19/2025 4:58PM PST
+# basket = ['Apple,', 'Bun', 'Cola']
+# crate = ['Egg', 'Fig', 'Grape']
+
+# print('Basket List: ', basket)
+# print('Length of Basket List: ', len(basket))
+
+# basket.append('Damson')
+# print('Appended: ', basket)
+# print('Last Item Removed: ', basket.pop())
+# print('Updated Basket: ', basket)
+
+# basket.extend(crate)
+# print('Extended Basket List: ', basket)
+# del basket[1]
+# print('Item removed from basket index position 1: ', basket)
+# del basket[1:3]
+# print('Slice Removed basket index of [1:3]', basket)
+
+# zoo = ('Kangaroo', 'Leopard', 'Moose')
+# bag = {'Red', 'Green', 'Blue'}
+# box = {'Red', 'Purple', 'Yellow'}
+# print('Tuple: ', zoo, 'Length: ', len(zoo))
+# print(type(zoo))
+# bag.add('Yellow')
+# print('Set: ', bag, 'Length: ', len(bag))
+# print(type(bag))
+# print('Is green in bag set? ', 'Green' in bag)
+# print('Is Organge in bag set? ', 'Orange' in bag)
+# print('Set: ', box, 'Length: ', len(box))
+# print('Common items from box and bag sets: ', bag.intersection(box))
+
+userSys = {'name' : 'Bob', 'sys' : 'Win'}
+userLang = {'name' : 'Bob', 'lang' : 'Python'}
+dict = userSys | userLang
+print('Dictionary: ', dict)
+# | is no longer the merge operator for dictionaries. which is why the code above and in the book fails. I will look up how to merge two dictionaries later. based on what i saw in chatgpt/google. now you copy one dictionary into a third dictionary then append the second dictionary into that third dictionary.
+
+
+
